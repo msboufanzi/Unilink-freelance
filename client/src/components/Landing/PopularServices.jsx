@@ -13,8 +13,8 @@ const PopularServices = () => {
     { name: "Ai Artists", label: "Add talent to AI", image: "/service1.png" },
     { name: "Logo Design", label: "Build your brand", image: "/service2.jpeg" },
     {
-      name: "Wordpress",
-      label: "Customize your site",
+      name: "Business",
+      label: "Business Student",
       image: "/service3.jpeg",
     },
     {

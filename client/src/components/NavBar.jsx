@@ -202,8 +202,8 @@ const NavBar = () => {
                   }
                 >
                   <span className="text-2xl md:text-3xl font-semibold flex items-center">
-                    <i>freelance</i>{" "}
-                    <b className="text-green-700 text-3xl md:text-4xl">X</b>
+                    <i>Unilin</i>{" "}
+                    <b className="text-green-700 text-3xl md:text-4xl">K</b>
                   </span>
                 </p>
               </Link>
