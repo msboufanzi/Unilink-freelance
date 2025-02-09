@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       process.env.PUBLIC_URL,
-      "https://freelancex-main.vercel.app",
+      "https://unilink-freelance.onrender.com",
       "http://localhost:3000"
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
