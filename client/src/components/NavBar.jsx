@@ -196,7 +196,7 @@ const NavBar = () => {
           >
             <div className="flex items-center">
               <Link href="/">
-                <p
+                {/* <p
                   className={
                     !navFixed && !userInfo ? "text-[#fff]" : "text-[#404145]"
                   }
@@ -205,7 +205,8 @@ const NavBar = () => {
                     <i>Unilin</i>{" "}
                     <b className="text-green-700 text-3xl md:text-4xl">K</b>
                   </span>
-                </p>
+                </p> */}
+                 <img src="/lg.png" alt="Logo" className="w-25 h-14" />
               </Link>
             </div>
 
@@ -240,7 +241,7 @@ const NavBar = () => {
                       key={linkName}
                       className={`${
                         navFixed ? "text-black " : "text-white"
-                      } font-medium hover:text-[#2ae68e] transition-all duration-300`}
+                      } font-medium hover:text-[#baf452] transition-all duration-300`}
                     >
                       {type === "link" && (
                         <Link href={handler}>{linkName}</Link>
@@ -253,9 +254,9 @@ const NavBar = () => {
                           onClick={handler}
                           className={`border text-md font-semibold py-1 px-6 rounded-sm ${
                             navFixed
-                              ? "border-[#1DBF73] text-[#1DBF73]"
+                              ? "border-[#baf452] text-[#baf452]"
                               : "border-white text-white"
-                          } hover:bg-[#1DBF73] hover:text-white hover:border-[#1DBF73] transition-all duration-300`}
+                          } hover:bg-[#baf452] hover:text-white hover:border-[#baf452] transition-all duration-300`}
                         >
                           {linkName}
                         </button>
@@ -267,14 +268,14 @@ const NavBar = () => {
                 <ul className="flex gap-10 items-center">
                   {isSeller && (
                     <li
-                      className="cursor-pointer text-[#1DBF73] font-medium"
+                      className="cursor-pointer text-[#baf452] font-medium"
                       onClick={() => router.push("/seller/gigs/create")}
                     >
                       Create Gig
                     </li>
                   )}
                   <li
-                    className="cursor-pointer text-[#1DBF73] font-medium"
+                    className="cursor-pointer text-[#baf452] font-medium"
                     onClick={handleOrdersNavigate}
                   >
                     Orders
@@ -392,7 +393,7 @@ const NavBar = () => {
                           <button className="w-full">{linkName}</button>
                         )}
                         {type === "button2" && (
-                          <button className="w-full py-2 px-6 border border-[#1DBF73] text-[#1DBF73] hover:bg-[#1DBF73] hover:text-white rounded-sm transition-all duration-300">
+                          <button className="w-full py-2 px-6 border border-[#baf452] text-[#baf452] hover:bg-[#baf452] hover:text-white rounded-sm transition-all duration-300">
                             {linkName}
                           </button>
                         )}

@@ -17,7 +17,7 @@ const Pricing = () => {
               <h4 className="text-md font-normal text-[#74767e]">
                 {gigData.shortDesc}
               </h4>
-              <h6 className="font-medium text-3xl"> ${gigData.price} </h6>
+              <h6 className="font-medium text-3xl"> MAD {gigData.price} </h6>
             </div>
             <div>
               <div className="text-[#62646a] font-semibold text-sm flex gap-6">
@@ -35,14 +35,14 @@ const Pricing = () => {
             <ul className="flex gap-1 flex-col">
               {gigData.features.map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
-                  <BsCheckLg className="text-[#1DBF73] text-lg" />
+                  <BsCheckLg className="text-[#baf452] text-lg" />
                   <span className="text-[#4f5156]">{feature}</span>
                 </li>
               ))}
             </ul>
             {gigData.userId === userInfo?.id ? (
               <button
-                className="flex items-center bg-[#1DBF73] text-white py-2 justify-center font-bold text-lg relative rounded"
+                className="flex items-center bg-[#baf452] text-white py-2 justify-center font-bold text-lg relative rounded"
                 onClick={() => router.push(`/seller/gigs/${gigData.id}`)}
               >
                 <span>Edit</span>
@@ -50,7 +50,7 @@ const Pricing = () => {
               </button>
             ) : (
               <button
-                className="flex items-center bg-[#1DBF73] text-white py-2 justify-center font-bold text-lg relative rounded"
+                className="flex items-center bg-[#baf452] text-white py-2 justify-center font-bold text-lg relative rounded"
                 onClick={() => router.push(`/checkout?gigId=${gigData.id}`)}
               >
                 <span>Continue</span>

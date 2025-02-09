@@ -104,7 +104,7 @@ const AuthWrapper = ({ type }) => {
 
               {type === "login" && (
                 <span
-                  className="text-[#1DBF73] text-sm cursor-pointer text-right "
+                  className="text-[#baf452] text-sm cursor-pointer text-right "
                   onClick={() =>
                     alert(
                       "Hey, forgetful genius! Relax and try to remember your password! 🔍"
@@ -116,7 +116,7 @@ const AuthWrapper = ({ type }) => {
               )}
 
               <button
-                className="bg-[#1DBF73] text-white px-12 text-lg text-center font-semibold rounded-r-md p-3 w-80 flex justify-center items-center"
+                className="bg-[#baf452] text-white px-12 text-lg text-center font-semibold rounded-r-md p-3 w-80 flex justify-center items-center"
                 onClick={handleClick}
                 type="button"
               >
@@ -159,7 +159,7 @@ const AuthWrapper = ({ type }) => {
                 <>
                   Don't have an account?&nbsp;
                   <span
-                    className="text-[#1DBF73] cursor-pointer"
+                    className="text-[#baf452] cursor-pointer"
                     onClick={() => {
                       dispatch({
                         type: reducerCases.TOGGLE_SIGNUP_MODAL,
@@ -178,7 +178,7 @@ const AuthWrapper = ({ type }) => {
                 <>
                   Already a member?&nbsp;
                   <span
-                    className="text-[#1DBF73] cursor-pointer"
+                    className="text-[#baf452] cursor-pointer"
                     onClick={() => {
                       dispatch({
                         type: reducerCases.TOGGLE_SIGNUP_MODAL,

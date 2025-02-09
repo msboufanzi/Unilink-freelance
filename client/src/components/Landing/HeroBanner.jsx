@@ -14,10 +14,10 @@ const images = [
 ];
 
 const popularSearchTerms = [
-  { label: "Website Design", query: "website design" },
-  { label: "Wordpress", query: "wordpress" },
+  { label: "tutorial", query: "I will" },
+  { label: "Resume Writing", query: "write" },
   { label: "Logo Design", query: "logo design" },
-  { label: "AI Services", query: "ai services" },
+  { label: "AI Services", query: "ai" },
 ];
 
 const HeroBanner = () => {
@@ -80,7 +80,7 @@ const HeroBanner = () => {
           </div>
 
           <button
-            className="bg-[#1DBF73] text-white py-3 md:py-0 px-8 text-lg font-semibold rounded-md md:rounded-l-none "
+            className="bg-[#baf452] text-white py-3 md:py-0 px-8 text-lg font-semibold rounded-md md:rounded-l-none "
             onClick={handleSearch}
           >
             Search

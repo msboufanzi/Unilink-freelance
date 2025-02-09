@@ -82,7 +82,7 @@ const index = () => {
                   <td className="px-6 py-4">{order.gig.category}</td>
                   <td className="px-6 py-4">
                     <span className="bg-blue-200 dark:bg-blue-800 rounded-xl p-2 font-medium">
-                      💲 {order.gig.price}
+                      MAD {order.gig.price}
                     </span>{" "}
                   </td>
                   <td className="px-6 py-4">{order.gig.deliveryTime} days</td>

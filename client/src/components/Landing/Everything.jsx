@@ -37,7 +37,7 @@ const Everything = () => {
             return (
               <li key={title}>
                 <div className="flex gap-2 items-center text-xl">
-                  <BsCheckCircle className="text-green-500 " />
+                  <BsCheckCircle className="text-[#baf452]" />
                   <h4>{title}</h4>
                 </div>
                 <p className="text-[#62646a]">{subtitle}</p>

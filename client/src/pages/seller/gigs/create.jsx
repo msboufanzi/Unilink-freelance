@@ -239,7 +239,7 @@ const create = () => {
           </div>
           <div>
             <label htmlFor="price" className={labelClassName}>
-              Gig Price ( $ )
+              Gig Price ( MAD )
             </label>
             <input
               type="number"
@@ -254,7 +254,7 @@ const create = () => {
         </div>
         <div>
           <button
-            className="border   text-lg font-semibold px-5 py-3   border-[#1DBF73] bg-[#1DBF73] text-white rounded-md"
+            className="border   text-lg font-semibold px-5 py-3   border-[#baf452] bg-[#baf452] text-white rounded-md"
             type="button"
             onClick={addGig}
           >

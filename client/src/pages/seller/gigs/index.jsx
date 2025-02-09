@@ -61,7 +61,7 @@ const index = () => {
                   </th>
                   <td className="px-6 py-4">{category}</td>
                   <td className="px-6 py-4">{deliveryTime} Days</td>
-                  <td className="px-6 py-4">$ {price}</td>
+                  <td className="px-6 py-4">MAD {price}</td>
                   <td className="px-6 py-4 text-right">
                     <Link
                       className="font-medium text-blue-600 dark:text-blue-500 hover:underline"

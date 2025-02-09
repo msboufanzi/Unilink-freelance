@@ -10,30 +10,30 @@ const PopularServices = () => {
   const router = useRouter();
 
   const popularServices = [
-    { name: "Ai Artists", label: "Add talent to AI", image: "/service1.png" },
+    { name: "Advanced Training in AI ", label: "Add Tutorial to tutoring", image: "/service1.jpeg" },
     { name: "Logo Design", label: "Build your brand", image: "/service2.jpeg" },
     {
-      name: "Business",
-      label: "Business Student",
+      name: "social media",
+      label: "Learn Marketing",
       image: "/service3.jpeg",
     },
+    // {
+    //   name: " Writing & Translation",
+    //   label: "Share your message",
+    //   image: "/service4.jpeg",
+    // },
     {
-      name: "Voice Over",
-      label: "Share your message",
-      image: "/service4.jpeg",
-    },
-    {
-      name: "Social Media",
-      label: "Reach more customers",
+      name: "write & Translation",
+      label: "Resume write",
       image: "/service5.jpeg",
     },
-    { name: "SEO", label: "Unlock growth online", image: "/service6.jpeg" },
+    // { name: "SEO", label: "Unlock growth online", image: "/service6.jpeg" },
     {
-      name: "Illustration",
+      name: "PowerPoint ",
       label: "Color your dreams",
       image: "/service7.jpeg",
     },
-    { name: "Translation", label: "Go global", image: "/service8.jpeg" },
+    // { name: "Translation", label: "Go global", image: "/service8.jpeg" },
   ];
 
   const settings = {

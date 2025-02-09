@@ -29,7 +29,7 @@ function JoinFreelance() {
           Efficient. Scalable. Hella <i>reliable</i>
         </h4>
         <button
-          className="border-2 text-md font-semibold px-6 py-3 md:mx-8 border-[#1DBF73] bg-[#1DBF73] text-white rounded-md transition-all duration-300 hover:bg-transparent hover:text-[#ffffff]"
+          className="border-2 text-md font-semibold px-6 py-3 md:mx-8 border-[#baf452] bg-[#baf452] text-white rounded-md transition-all duration-300 hover:bg-transparent hover:text-[#ffffff]"
           type="button"
           onClick={handleSignup}
         >

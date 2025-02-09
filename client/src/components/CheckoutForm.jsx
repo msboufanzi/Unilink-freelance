@@ -92,8 +92,8 @@ export default function CheckoutForm() {
       <button
         disabled={isLoading || !stripe || !elements}
         id="submit"
-        className="border   text-lg font-semibold px-5 py-3   border-[#1DBF73] bg-[#1DBF73] 
-        hover:bg-green-500 text-white rounded-md my-5 w-full"
+        className="border   text-lg font-semibold px-5 py-3   border-[#baf452] bg-[#baf452] 
+        hover:bg-[#baf452] text-white rounded-md my-5 w-full"
       >
         <span id="button-text">
           {isLoading ? <div className="spinner" id="spinner"></div> : "Pay now"}

@@ -123,7 +123,7 @@ function Profile() {
               <span className="text-red-600 font-bold">{errorMessage}</span>
             </div>
           )}
-          <h2 className="text-3xl">Welcome to freelanceX 👋 </h2>
+          <h2 className="text-3xl">Welcome to Unilink 👋 </h2>
           <h4 className="text-xl">
             Please complete your profile to get started!
           </h4>
@@ -223,7 +223,7 @@ function Profile() {
               ></textarea>
             </div>
             <button
-              className="border   text-lg font-semibold px-5 py-3  mb-12 border-[#1DBF73] bg-[#1DBF73] text-white rounded-md"
+              className="border   text-lg font-semibold px-5 py-3  mb-12 border-[#baf452] bg-[#baf452] text-white rounded-md"
               type="button"
               onClick={setProfile}
             >

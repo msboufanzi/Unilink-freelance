@@ -13,7 +13,7 @@ const Services = () => {
         {categories.map(({ name, logo }) => (
           <li
             key={name}
-            className="flex flex-col justify-center items-center cursor-pointer hover:shadow-2xl hover:border-[#1DBF73] border-2 border-transparent p-5 transition-all duration-500 rounded-lg"
+            className="flex flex-col justify-center items-center cursor-pointer hover:shadow-2xl hover:border-[#baf452] border-2 border-transparent p-5 transition-all duration-500 rounded-lg"
             onClick={() =>
               router.push(`/search?category=${name.toLowerCase()}`)
             }
