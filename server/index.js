@@ -15,8 +15,12 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Updated CORS configuration
-app.use(cors());
-
+app.use(cors({
+  origin: 'https://unilink-freelance-4fdy.vercel.app', // Change this to your frontend domain
+  credentials: true, // ✅ Allow cookies, tokens, or authentication headers
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type,Authorization'
+}));
 // Enable pre-flight requests for all routes
 // app.options("*", cors());
 
