@@ -15,21 +15,10 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Updated CORS configuration
-app.use(
-  cors({
-    origin: [
-      process.env.PUBLIC_URL,
-      "https://unilink-freelance.onrender.com",
-      "http://localhost:3000"
-    ],
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    credentials: true,
-    allowedHeaders: ["Content-Type", "Authorization", "x-csrf-token"],
-  })
-);
+app.use(cors());
 
 // Enable pre-flight requests for all routes
-app.options("*", cors());
+// app.options("*", cors());
 
 // Prisma connection to MongoDB
 prisma
