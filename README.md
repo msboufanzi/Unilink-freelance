@@ -1,7 +1,7 @@
 # Unilink : Freelance Marketplace
 with Next.js, Tailwind CSS, Node.js, Prisma, MongoDB
 
-Unilink is a Freelance Marketplace web application . It provides a platform for freelancers to showcase their skills and services by creating gigs, and clients can easily order these gigs for their projects. It enables freelancers to create gigs and clients to conveniently place orders for their desired services.
+UniLink: A Digital Collaboration Platform Connects UIR students across diverse fields for academic projects. Allows students to showcase skills and find peers with expertise. Provides part-time job opportunities. Enhances learning, practical experience, and employability.
 ![Unilink Screenshot](unilink.png)
 
 
