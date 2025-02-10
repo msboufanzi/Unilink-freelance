@@ -29,7 +29,6 @@ Unilink is a Freelance Marketplace web application . It provides a platform for 
 3. Visit `http://localhost:3000` in your web browser.
 
 
-This project was developed as a part of the 4th semester and is not intended for commercial use.
 
 N lets connect : https://msboufanzi.github.io/Portfolio/
 
